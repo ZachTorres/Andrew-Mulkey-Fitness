@@ -19,10 +19,10 @@ export default function Contact() {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-heading font-bold text-uga-black mb-4">
-              Start Your Transformation
+              Let's Build Your Program
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Ready to achieve your fitness goals? Let's connect and discuss how we can work together.
+              Ready to take the first step? Reach out and let's talk about your goals. I personally review every message and will get back to you within 24 hours.
             </p>
             <div className="w-24 h-1 bg-uga-red mx-auto mt-6"></div>
           </div>
@@ -31,7 +31,7 @@ export default function Contact() {
             {/* Contact Form */}
             <div className="bg-white rounded-2xl p-8 shadow-xl">
               <h3 className="text-2xl font-heading font-bold text-uga-black mb-6">
-                Send Me a Message
+                Message Andrew Directly
               </h3>
 
               {formStatus === 'success' ? (
@@ -41,7 +41,7 @@ export default function Contact() {
                     Message Sent!
                   </h4>
                   <p className="text-green-600">
-                    Thank you for reaching out. I'll get back to you within 24 hours.
+                    Thanks for reaching out! I'll personally review your message and get back to you within 24 hours.
                   </p>
                 </div>
               ) : (

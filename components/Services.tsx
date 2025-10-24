@@ -3,46 +3,46 @@ import { FaLaptop, FaUsers, FaAppleAlt, FaChartLine } from "react-icons/fa";
 const services = [
   {
     icon: FaLaptop,
-    title: "Online Coaching",
-    description: "Personalized training programs delivered digitally with weekly check-ins, form reviews, and ongoing support wherever you are.",
+    title: "Online Coaching with Andrew",
+    description: "Train with me from anywhere. I'll design your personalized program, review your form via video, and check in weekly to keep you on track.",
     features: [
-      "Custom workout plans",
-      "Video exercise library",
-      "Weekly progress reviews",
-      "24/7 messaging support"
+      "Custom workout plans by Andrew",
+      "Personal video exercise library",
+      "Weekly 1-on-1 progress reviews",
+      "Direct messaging access to Andrew"
     ]
   },
   {
     icon: FaUsers,
-    title: "1-on-1 Training",
-    description: "Hands-on personal training sessions tailored to your goals, fitness level, and schedule for maximum accountability and results.",
+    title: "1-on-1 In-Person Training",
+    description: "Work directly with me in person. Get hands-on coaching, real-time feedback, and the accountability that comes with having me by your side.",
     features: [
-      "Personalized attention",
+      "Andrew's undivided attention",
       "Real-time form correction",
-      "Flexible scheduling",
-      "Goal-specific programming"
+      "Flexible scheduling options",
+      "Programming tailored to you"
     ]
   },
   {
     icon: FaAppleAlt,
     title: "Nutrition Coaching",
-    description: "Science-based nutrition guidance that fits your lifestyle, helping you fuel your body properly for optimal performance and recovery.",
+    description: "I'll help you dial in your nutrition with a science-based approach that actually fits your lifestyle—no extreme diets, just sustainable results.",
     features: [
-      "Macro calculations",
-      "Meal planning strategies",
-      "Supplement guidance",
-      "Lifestyle integration"
+      "Personalized macro calculations",
+      "Practical meal strategies",
+      "Honest supplement guidance",
+      "Lifestyle-first approach"
     ]
   },
   {
     icon: FaChartLine,
-    title: "Transformation Program",
-    description: "Comprehensive 12-week program combining training, nutrition, and mindset coaching for complete body transformation.",
+    title: "12-Week Transformation",
+    description: "My signature program. We'll work together for 12 weeks with complete training, nutrition, and mindset coaching for a total transformation.",
     features: [
-      "Full training & nutrition plan",
-      "Bi-weekly coaching calls",
-      "Accountability tracking",
-      "Lifetime program access"
+      "Andrew's full training & nutrition system",
+      "Bi-weekly coaching calls with Andrew",
+      "Daily accountability and support",
+      "Lifetime access to your program"
     ]
   }
 ];
@@ -55,10 +55,10 @@ export default function Services() {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-heading font-bold text-uga-black mb-4">
-              Training Programs
+              How I Can Help You
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Choose the program that fits your goals and lifestyle. All programs include expert guidance and unwavering support.
+              I offer several coaching options to fit your goals and lifestyle. No matter which path you choose, you'll get my complete commitment to your success.
             </p>
             <div className="w-24 h-1 bg-uga-red mx-auto mt-6"></div>
           </div>

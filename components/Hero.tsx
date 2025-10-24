@@ -14,26 +14,31 @@ export default function Hero() {
       {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-heading font-bold text-white mb-6 leading-tight">
-            Transform Your Body.
-            <br />
-            <span className="text-uga-red">Transform Your Life.</span>
-          </h1>
+          <div className="mb-8">
+            <p className="text-uga-red text-xl sm:text-2xl font-semibold mb-4">
+              Hi, I'm Andrew Mulkey
+            </p>
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-heading font-bold text-white mb-6 leading-tight">
+              Your Partner in Building
+              <br />
+              <span className="text-uga-red">Sustainable Strength</span>
+            </h1>
+          </div>
           <p className="text-xl sm:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Personalized training programs designed to help you achieve sustainable results and unlock your full potential.
+            I help driven individuals transform their bodies through personalized coaching, science-backed training, and a commitment to your long-term success.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <a
               href="#contact"
               className="bg-uga-red text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-red-700 transition-all hover:scale-105 shadow-xl"
             >
-              Start Your Journey
+              Work With Me
             </a>
             <a
               href="#services"
               className="bg-white text-uga-black px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all hover:scale-105 shadow-xl"
             >
-              View Programs
+              My Programs
             </a>
           </div>
 

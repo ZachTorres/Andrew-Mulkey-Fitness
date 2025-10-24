@@ -1,3 +1,6 @@
+"use client";
+
+import Image from "next/image";
 import { FaGraduationCap, FaDumbbell, FaHeart, FaCertificate } from "react-icons/fa";
 
 export default function About() {
@@ -8,7 +11,7 @@ export default function About() {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-heading font-bold text-uga-black mb-4">
-              Meet Your Coach
+              About Andrew
             </h2>
             <div className="w-24 h-1 bg-uga-red mx-auto"></div>
           </div>
@@ -16,11 +19,28 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Image */}
             <div className="relative">
-              <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
-                <div className="w-full h-full bg-gradient-to-br from-uga-red to-uga-black flex items-center justify-center">
+              <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl bg-gray-200">
+                <Image
+                  src="/images/andrew-profile.jpg"
+                  alt="Andrew Mulkey - Personal Trainer"
+                  width={600}
+                  height={600}
+                  className="w-full h-full object-cover"
+                  priority
+                  onError={(e) => {
+                    // Fallback to placeholder if image doesn't exist
+                    const target = e.target as HTMLImageElement;
+                    target.style.display = 'none';
+                    if (target.nextElementSibling) {
+                      (target.nextElementSibling as HTMLElement).style.display = 'flex';
+                    }
+                  }}
+                />
+                <div className="w-full h-full bg-gradient-to-br from-uga-red to-uga-black hidden items-center justify-center">
                   <div className="text-white text-center p-8">
                     <FaDumbbell className="w-32 h-32 mx-auto mb-4 opacity-50" />
                     <p className="text-2xl font-heading">Andrew Mulkey</p>
+                    <p className="text-sm mt-2 opacity-75">Add photo: /public/images/andrew-profile.jpg</p>
                   </div>
                 </div>
               </div>
@@ -33,13 +53,16 @@ export default function About() {
             {/* Content */}
             <div className="space-y-6">
               <h3 className="text-3xl font-heading font-bold text-uga-black">
-                Dedicated to Your Success
+                My Mission: Your Transformation
               </h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Hi, I'm Andrew Mulkey, a certified personal trainer passionate about helping individuals achieve their fitness goals through science-based training and sustainable lifestyle changes.
+                I'm Andrew Mulkey, and fitness isn't just what I do—it's who I am. As a certified personal trainer and UGA alumnus, I've dedicated my career to helping people like you break through barriers and achieve what they once thought impossible.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                My approach combines personalized workout programs, evidence-based nutrition guidance, and ongoing support to ensure you not only reach your goals but maintain them for life.
+                My coaching philosophy is simple: sustainable results through personalized programming, evidence-based methods, and unwavering accountability. I don't believe in quick fixes or cookie-cutter programs. Every client gets my full attention, custom-tailored workouts, and the support needed to succeed long-term.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Whether you're getting back into fitness or pushing for your next PR, I'm here to guide you every step of the way.
               </p>
 
               {/* Credentials */}

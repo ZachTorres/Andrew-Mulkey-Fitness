@@ -13,13 +13,13 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Andrew Mulkey | Personal Training & Fitness Coaching",
-  description: "Transform your fitness journey with personalized training programs from Andrew Mulkey. Expert coaching, nutrition guidance, and sustainable results.",
-  keywords: ["personal trainer", "fitness coach", "online training", "nutrition coaching", "Andrew Mulkey"],
+  title: "Andrew Mulkey - Personal Trainer | Build Sustainable Strength",
+  description: "I'm Andrew Mulkey, a certified personal trainer dedicated to helping you build sustainable strength through personalized coaching, science-backed training, and genuine support.",
+  keywords: ["Andrew Mulkey", "personal trainer", "fitness coach", "online training", "nutrition coaching", "UGA", "strength training"],
   authors: [{ name: "Andrew Mulkey" }],
   openGraph: {
-    title: "Andrew Mulkey | Personal Training & Fitness Coaching",
-    description: "Transform your fitness journey with personalized training programs from Andrew Mulkey.",
+    title: "Andrew Mulkey - Personal Trainer",
+    description: "Build sustainable strength with personalized coaching from Andrew Mulkey. Your partner in fitness transformation.",
     type: "website",
   },
 };

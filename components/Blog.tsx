@@ -75,10 +75,10 @@ export default function Blog() {
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-heading font-bold text-uga-black mb-4">
-              Latest Insights
+              Andrew's Training Insights
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Weekly evidence-based articles on training, nutrition, and sustainable fitness
+              Weekly articles where I share my approach to training, nutrition, and building sustainable fitness habits
             </p>
             <div className="w-24 h-1 bg-uga-red mx-auto mt-6"></div>
           </div>
