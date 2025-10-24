@@ -15,10 +15,10 @@ export default function Hero() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20 text-center">
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
-            <p className="text-uga-red text-xl sm:text-2xl font-semibold mb-4">
+            <p className="hidden sm:block text-uga-red text-xl sm:text-2xl font-semibold mb-4">
               Hi, I'm Andrew Mulkey
             </p>
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-heading font-bold text-white mb-6 leading-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-6 leading-tight">
               Your Partner in Building
               <br />
               <span className="text-uga-red">Sustainable Strength</span>
